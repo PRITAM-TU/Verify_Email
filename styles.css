@@ -3,7 +3,7 @@
   --primary-color: #4a6bff;
   --secondary-color: #6c5ce7;
   --accent-color: #00cec9;
-  --dark-color: #2d3436;
+  --dark-color: white;
   --light-color: #f5f6fa;
   --success-color: #00b894;
   --warning-color: #fdcb6e;
@@ -22,7 +22,7 @@ body {
   font-family: 'Poppins', sans-serif;
   line-height: 1.6;
   color: var(--dark-color);
-  background-color: #fff;
+  background-color: #262626;
   overflow-x: hidden;
 }
 
@@ -79,15 +79,17 @@ a {
   left: 0;
   width: 100%;
   padding: 20px 0;
-  background-color: white;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #262626;
+
+        box-shadow: 7px 15px 16px rgb(12 177 255 / 10%);
   z-index: 1000;
+  color: white;
   transition: all 0.3s ease;
 }
 
 .navbar.scrolled {
   padding: 15px 0;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color:#262626;
   backdrop-filter: blur(10px);
 }
 
@@ -189,7 +191,8 @@ a {
 /* Hero Section */
 .hero {
   padding-top: 150px;
-  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+  color: white;
+  background: linear-gradient(135deg, #262626 0%, #262626 100%);
   position: relative;
   overflow: hidden;
 }
@@ -231,10 +234,10 @@ a {
 }
 
 .validator-container {
-  background: white;
+  background: #262626;
   border-radius: 15px;
   padding: 30px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+     box-shadow: 10px 8px 18px #3a1f5b;
   margin-bottom: 40px;
 }
 
@@ -346,10 +349,10 @@ a {
 }
 
 .feature-card {
-  background: white;
+  background: #262626;
   border-radius: 10px;
   padding: 30px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    box-shadow: 2px 1px 13px #5394af;
   transition: all 0.3s ease;
   text-align: left;
 }
@@ -377,7 +380,9 @@ a {
 /* How It Works Section */
 .how-it-works {
   text-align: center;
-  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+  background: linear-gradient(135deg, #262626 0%, #262626 100%);
+  color: white;
+      box-shadow: 2px 2px 21px #ff0065;
 }
 
 .steps {
@@ -511,7 +516,8 @@ a {
 
 /* Contact Section */
 .contact {
-  background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+  background: linear-gradient(135deg, #262626 0%, #262626 100%);
+      box-shadow: 2px 2px 24px #209cd1;
 }
 
 .contact-container {
@@ -529,10 +535,10 @@ a {
 .contact-form {
   flex: 1;
   min-width: 300px;
-  background: white;
+  background: #262626;
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+     box-shadow: 2px 2px 12px #262685;
 }
 
 .contact-item {
@@ -577,9 +583,10 @@ a {
 
 /* Footer */
 footer {
-  background-color: var(--dark-color);
+  background-color:#262626;
   color: white;
   padding: 60px 0 0;
+      box-shadow: 2px 2px 17px #0f63df;
 }
 
 .footer-content {
