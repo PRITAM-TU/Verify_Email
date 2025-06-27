@@ -103,6 +103,7 @@ a {
   font-size: 24px;
   font-weight: 700;
   color: var(--dark-color);
+      text-shadow: 3px 1px 8px #8eff0b;
 }
 
 .logo span {
@@ -118,6 +119,7 @@ a {
   font-weight: 500;
   position: relative;
   transition: color 0.3s ease;
+      text-shadow: 3px 3px 5px #770dbe;
 }
 
 .nav-links a:after {
@@ -225,6 +227,7 @@ a {
   font-size: 48px;
   margin-bottom: 20px;
   color: var(--dark-color);
+   text-shadow: 3px 3px 5px #770dbe;
 }
 
 .hero p {
@@ -747,6 +750,7 @@ footer {
 .animate-pop-in {
   animation: popIn 0.6s cubic-bezier(0.26, 0.53, 0.74, 1.48) forwards;
   opacity: 0;
+      text-shadow: 3px 3px 5px #125bc8;
 }
 
 @keyframes popIn {
